@@ -1,0 +1,48 @@
+.container {
+    background-color: white;
+    margin-bottom: 20px;
+}
+.nf-counter {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+#menu {
+    padding-top: 10px
+}
+#menu a {
+    margin-bottom: 5px
+}
+/* hide bottom zzz service panel */
+.cbalink {
+    display: none
+}
+.another-clan-chars {
+    margin-top:10px
+}
+.blueimp-gallery {
+    display: none;
+}
+.blueimp-gallery .slides {
+    width: 100%;
+}
+
+.nf-map img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 5px;
+}
+.chars-table-header {
+    cursor: pointer;
+}
+.chars-table-header span {
+    font-size:12px;
+}
+#source {
+    border-top: 1px solid grey;
+    margin-top: 10px;
+}
