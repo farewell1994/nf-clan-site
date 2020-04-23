@@ -55,7 +55,10 @@
         Обратная связь <a href="mailto:farewell483@gmail.com">farewell483@gmail.com</a> или <a target="_blank" href="https://neverfate.ru/inf.php?cid=1273146797">Kill My Teacher</a>
     </div>
 </div>
-<?php include('./nf_script.html'); ?>
+<?php 
+include('./nf_script.html'); 
+include('./mail_ru_counter.html');
+?>
 <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
 </div>
