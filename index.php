@@ -12,7 +12,7 @@ include("./functions.php");
 <div class="container">
     <?php include('./menu.html'); ?>
     <div id="crystal-energy" class="text-right">Уровень зарядки Кристалла
-        Грез: <?php echo (file_get_contents("http://api.neverfate.ru/cristalenergy.php")) / 100; ?>%
+        Грез: <?php echo (file_get_contents("https://api.neverfate.ru/cristalenergy.php")) / 100; ?>%
     </div>
     <div id="top-content" class="text-center">
         <h4>
@@ -33,7 +33,7 @@ include("./functions.php");
                 <?php getClanTable($generalConfig['clanName']); ?>
                 <p>Посмотреть участников других кланов</p>
                     <?php
-                    $clans = unserialize(file_get_contents("http://api.neverfate.ru/clans.php"));
+                    $clans = unserialize(file_get_contents("https://api.neverfate.ru/clans.php"));
                     if ($clans) {
                         echo "<select>";
                         foreach ($clans as $clan) {
@@ -64,7 +64,7 @@ include("./functions.php");
 
     <div id="source" class="text-center">
         Сайт является  <a target="_blank" href="https://github.com/farewell1994/nf-clan-site">Open source</a> проектом.
-        Обратная связь <a href="mailto:farewell483@gmail.com">farewell483@gmail.com</a> или <a target="_blank" href="http://neverfate.ru/inf.php?cid=1273146797">Kill My Teacher</a>
+        Обратная связь <a href="mailto:farewell483@gmail.com">farewell483@gmail.com</a> или <a target="_blank" href="https://neverfate.ru/inf.php?cid=1273146797">Kill My Teacher</a>
     </div>
 </div>
 <?php include('./nf_script.html'); ?>

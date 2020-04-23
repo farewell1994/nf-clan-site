@@ -52,7 +52,7 @@
     </div>
     <div id="source" class="text-center">
         Сайт является  <a target="_blank" href="https://github.com/farewell1994/nf-clan-site">Open source</a> проектом.
-        Обратная связь <a href="mailto:farewell483@gmail.com">farewell483@gmail.com</a> или <a target="_blank" href="http://neverfate.ru/inf.php?cid=1273146797">Kill My Teacher</a>
+        Обратная связь <a href="mailto:farewell483@gmail.com">farewell483@gmail.com</a> или <a target="_blank" href="https://neverfate.ru/inf.php?cid=1273146797">Kill My Teacher</a>
     </div>
 </div>
 <?php include('./nf_script.html'); ?>
